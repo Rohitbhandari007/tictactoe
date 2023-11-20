@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+    background-color: #333;
+}
+
+
+
+.game-actions{
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.total-wins{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+}
+.restart-btn{
+    outline: 0;
+    border: 0;
+    padding: 20px;
+    cursor: pointer;
+}
+.game-details{
+    opacity: 0;
+    border: 1px solid black;
+    width: 20%;
+    padding: 30px;
+    background-color: #fff;
+    margin-right:400px;
+}
+
+.game-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #333;
+    padding: 20px;
+
+
+    
+}
+.cell{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
