@@ -115,7 +115,7 @@ function renderGame(){
                     ResetGame()
                 }else{
                     
-                    console.log(userOne)
+                    // console.log(userOne)
 
                 }
             }else{
@@ -137,7 +137,7 @@ function renderGame(){
                     ResetGame()
                 }else{
                     
-                    console.log( userTwo)
+                    // console.log( userTwo)
 
                 }
             }
@@ -161,7 +161,6 @@ function winCheck(userList){
 
 function checkCatsGame(){
     if((userOne.length + userTwo.length) >= 9){
-        console.log("cats game")
         let gameDetails = document.getElementById('game-details')
             gameDetails.style.opacity="1"
             gameDetails.innerHTML = " "
